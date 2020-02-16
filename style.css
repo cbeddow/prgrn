@@ -2,6 +2,7 @@ body {
   background: #fefefe;
   color: #e46945;
   font-family: 'Rubik', sans-serif;
+  overflow: hidden;
 }
 .title {
   font: 250px 'Indie Flower', cursive;
@@ -11,10 +12,10 @@ body {
 }
 .definition {
   color: #e46945;
-  font: 22px 'Rubik', sans-serif;
-  letter-spacing: 3px;
+  font: 20px 'Rubik', sans-serif;
+  letter-spacing: 2px;
   line-height: 35px;
-  margin-left: 60px;
+  margin-left: 50px;
   display: block;
 }
 .list {
@@ -33,23 +34,51 @@ ul {
   font: 25px 'Rubik', sans-serif;
 }
 #posts {
-
+  overflow-y: scroll;
+  height: 90%;
 }
-#recent {
+#recent, #feed-restore {
   font: 20px 'Rubik', sans-serif;
   color: #242424;
   letter-spacing: 6px;
 }
-.content {
+.content-feed {
   font: 20px 'Rubik', sans-serif;
   color: #242424;
+}
+.content-read {
+  font: 18px 'Rubik', sans-serif;
+  color: #393939;
+  line-height: 30px;
+  letter-spacing: 3px;
 }
 .post {
   border: 3px solid #e46945;
   width: 90%;
-  height: 400px;
+  height: 550px;
   padding: 15px;
   margin-bottom: 50px;
   font: 20px 'Rubik', sans-serif;
   color: #242424;
+  overflow: hidden;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #fefefe;
+}
+::-webkit-scrollbar-thumb {
+  background: #e46945;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e46945;
+}
+p {
+  padding: 20px;
 }

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./app.js"></script>
 </head>
 
 <body>
@@ -34,20 +35,42 @@
       </div>
       <div class="col-sm-1" class='empty'>
       </div>
-      <div class="col-sm-6" class='content'>
-        <br><br><br><br><br>
-        <b id='recent'>RECENT POSTS</b>
-        <br><br>
-        <div id='posts'>
-          <div class='post'>
-            14 February, 2020<br><br>
-
-            Testing most recent
+      <div class="col-sm-6">
+        <div class='content-read'>
+        </div>
+        <div class="row">
+          <div class="col-sm-1" class='empty'>
           </div>
-          <div class='post'>
-            10 February, 2020<br><br>
-
-            Testing second most recent
+          <div class="col-sm-10" class='content-feed'>
+            <br><br><br><br><br>
+            <b id='recent'>RECENT POSTS</b>
+            <b id='feed-restore'>ᐊ RECENT POSTS</b>
+            <br><br>
+            <div id='posts'>
+              <div class='post' id='julian'>
+                <h2>Title of this adventure</h2>
+                15 February, 2020<br><br>
+                <img src='./posts/test3/img1.png' class='post-img' />
+                <br><br>
+                Subtitle of this adventure
+              </div>
+              <div class='post' id='bighorn'>
+                <h2>Title of this adventure</h2>
+                10 February, 2020<br><br>
+                <img src='./posts/test2/img1.png' class='post-img' />
+                <br><br>
+                Subtitle of this adventure
+              </div>
+              <div class='post' id='aspiring'>
+                <h2>Title of this adventure</h2>
+                03 February, 2020<br><br>
+                <img src='./posts/test1/img1.png' class='post-img' />
+                <br><br>
+                Subtitle of this adventure
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1" class='empty'>
           </div>
         </div>
       </div>
