@@ -4,40 +4,52 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 .title {
-  font: 250px 'Odibee Sans', cursive;
+  font: 280px 'Odibee Sans', sans-serif;
   letter-spacing: 40px;
   color: #242424;
+  margin-left: 20px;
 }
 .definition {
   color: #e46945;
-  font: 20px 'Rubik', sans-serif;
-  letter-spacing: 2px;
-  line-height: 30px;
+  font: 22px 'Rubik', sans-serif;
+  letter-spacing: 3px;
+  line-height: 35px;
+  margin-left: 60px;
+  display: block;
 }
 .list {
   color: #242424;
   font: 30px 'Rubik', sans-serif;
   letter-spacing: 5px;
+  line-height: 60px;
+  margin-left: 80px;
 }
 ul {
-    margin: 0.75em 50;
-    padding: 0 1em;
-    list-style: none;
-}
-li:before {
-    content: "";
-    border-color: transparent #111;
-    border-style: solid;
-    border-width: 0.35em 0 0.35em 0.45em;
-    display: block;
-    height: 0;
-    width: 0;
-    left: -1em;
-    top: 0.9em;
-    position: relative;
+  list-style-type: square;
 }
 #word {
   background-color: #e46945;
   color: #fefefe;
+  font: 25px 'Rubik', sans-serif;
+}
+#posts {
+
+}
+#recent {
   font: 20px 'Rubik', sans-serif;
+  color: #242424;
+  letter-spacing: 6px;
+}
+.content {
+  font: 20px 'Rubik', sans-serif;
+  color: #242424;
+}
+.post {
+  border: 3px solid #e46945;
+  width: 90%;
+  height: 400px;
+  padding: 15px;
+  margin-bottom: 50px;
+  font: 20px 'Rubik', sans-serif;
+  color: #242424;
 }
